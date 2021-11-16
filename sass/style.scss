@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: rgb(45, 45, 45);;
 }
 header{
     border: 1px solid black;
@@ -9,18 +10,43 @@ header{
         width: 10%;
     }
 }
+nav{
+    padding-left: 15px;
+    background: red;
+    display: flex;
+    ul{
+        background: white;
+        width: 150%;
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-around ;
+        align-items: center;
+        li{
+            list-style: none;
+        }
+    }
 
+
+}
+
+a:link{
+    text-decoration: none;
+}
 
 section{
-    padding-top: 100px;
+    width: 80%;
     margin: auto;
-    width: 70%;
+    margin-top: 150px;
+    padding: auto;
     display: flex;
     justify-content: space-between;
+    background: black;
+    border-radius: 15px;
     .block{
+        margin: 50px;
         background: rgb(237, 27, 36);
         box-shadow: 10px 5px 10px red;
-        width: 30%;
+        width: 350px;
         border-radius: 15px;
         color: white;
         text-align: center;
@@ -32,8 +58,8 @@ section{
         
         img{
            width: 100%;
-           border-top-left-radius: 15px;
-           border-top-right-radius: 15px;
+           border-bottom-left-radius: 15px;
+           border-bottom-right-radius: 15px;
            
         }
     }
